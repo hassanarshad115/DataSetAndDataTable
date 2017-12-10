@@ -27,7 +27,8 @@ namespace DataSetAndDataTable
             dtEmployee.Columns.Add("Name");
 
             dtEmployee.Rows.Add(1, "hassan");
-            dtEmployee.Rows.Add(1, "ali");
+            dtEmployee.Rows.Add(2, "ali");
+            dtEmployee.Rows.Add(3, "rizwan");
 
             dsoffice.Tables.Add(dtEmployee);
 
